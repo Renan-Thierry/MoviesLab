@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movie_page {
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div2 {
+  width: 50%;
+}
+
+.info {
+  width: 100%;
+  padding: 20px;
+}
+
+.info h3 {
+  margin-bottom: 20px;
+}
+
+.info svg {
+  color: rgb(229, 9, 20);
+}
+
+.info p {
+  line-height: 1rem;
+  width: 80%;
+  text-indent: 20px;
+}
+
+@media screen and (max-width:600px) {
+  .movie_page {
+    flex-direction: column;
+  }
+}
